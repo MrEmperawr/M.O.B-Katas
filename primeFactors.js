@@ -14,9 +14,6 @@ function primeFactors (num) {
 }
 
 
-
-
-
 function primeNumbers (num) {
     if (num === 1) {
         return console.log('1 is the unit number');
