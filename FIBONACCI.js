@@ -5,15 +5,18 @@ function fibonacciPrimes(numberofIterations) {
     for (let i = 0; i < numberofIterations; i++) {
         if (i % 2 === 0) {
             a = b + a;
+            let primNumA = primeNumber(a);
             console.log(a);
-            primeNumber(a);
-            primeArray.push(primeNumber(a));
-            
+            if (primNumA !== undefined) {
+                primeArray.push(primNumA);
+            }
         } else {
             b = a + b;
+            let primNumB = primeNumber(b);
             console.log(b);
-            primeNumber(b);
-            primeArray.push(primeNumber(b));
+            if (primNumB !== undefined) {
+                primeArray.push(primNumB);
+            }
         }
     } return primeArray;
 }
