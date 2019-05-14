@@ -1,8 +1,8 @@
-function fibonacciPrimes(number, iterations) {
+function fibonacciPrimes(numberofIterations) {
     let a = 1;
     let b = 1;
     let primeArray = [];
-    for (let i = 0; i < iterations; i++) {
+    for (let i = 0; i < numberofIterations; i++) {
         if (i % 2 === 0) {
             a = b + a;
             console.log(a);
