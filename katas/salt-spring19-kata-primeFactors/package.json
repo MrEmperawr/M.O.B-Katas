@@ -1,0 +1,23 @@
+{
+  "name": "salt-spring19-kata-primefactors",
+  "version": "1.0.0",
+  "description": "This is another classic kata by Uncle Bob. His solution is written in Java, but any language can be used.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha primefactors.spec.js -R list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/salt-spring19-kata-primeFactors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/salt-spring19-kata-primeFactors/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/salt-spring19-kata-primeFactors#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
+  }
+}

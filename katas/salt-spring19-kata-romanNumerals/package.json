@@ -1,0 +1,28 @@
+{
+  "name": "salt-spring19-calculator",
+  "version": "1.0.0",
+  "description": "Today you will setup a new project from scratch with `npm` and `git`. At the end of the day you will have a working caculator with a CLI (command line interface) implementation. If you have time, you will also implement a REST interface.",
+  "main": "cli.js",
+  "scripts": {
+    "pretest": "npm run lint --silent",
+    "test": "mocha --reporter spec --exit \"*.spec.js\"",
+    "start": "node server.js",
+    "lint": "eslint **/*.js || exit 0",
+    "watch": "nodemon --exec 'npm run test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/salt-spring19-calculator.git"
+  },
+  "author": "Dragosh, Ludde, Alex, Marcus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/salt-spring19-calculator/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/salt-spring19-calculator#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0"
+  }
+}

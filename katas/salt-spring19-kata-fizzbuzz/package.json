@@ -1,0 +1,19 @@
+{
+  "name": "salt-spring19-kata-fizzbuzz",
+  "version": "1.0.0",
+  "description": "Let's do the classic FizzBuzz kata described [here](http://codingdojo.org/kata/FizzBuzz/). However, we'll add a small requirement to the original kata. In the response from your module, you should signal to the user __without throwing any errors!__ whether the request was successful or not.  This means that if the users of your fizzbuzz module makes a valid request, they should get a message back that indicates the request was successful and what the result was.  And if they makes an invalid request, e.g. with the argument `-4` or `\"foo\"`, they should get a message back that says there was an error. This means that if the users of your fizzbuzz module makes a request with the argument `-4` or `\"foo\"`, they should get a message that tells them there was an error and some hint about how they can make a correct request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/salt-spring19-kata-fizzbuzz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/salt-spring19-kata-fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/salt-spring19-kata-fizzbuzz#readme"
+}
