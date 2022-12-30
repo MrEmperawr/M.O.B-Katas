@@ -22,7 +22,7 @@
   "homepage": "https://github.com/saltsthlm/salt-spring19-calculator#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.0"
   }
 }
